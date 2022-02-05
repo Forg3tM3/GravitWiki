@@ -98,18 +98,18 @@ const defaultConfig = docsOptions => ({
   },
   i18n: {
     locales: [{
-      code: 'ru',
+      code: 'latest',
       iso: 'ru-RU',
       file: 'ru-RU.js',
-      name: 'Русский'
+      name: 'Latest'
     }],
-    defaultLocale: 'ru',
+    defaultLocale: 'latest',
     parsePages: false,
     lazy: true,
     seo: false,
     langDir: 'i18n/',
     vueI18n: {
-      fallbackLocale: 'ru',
+      fallbackLocale: 'latest',
       dateTimeFormats: {
         ru: {
           long: {

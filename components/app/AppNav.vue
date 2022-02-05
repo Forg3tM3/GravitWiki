@@ -40,7 +40,7 @@
           </ul>
         </li>
         <li class="lg:hidden space-x-2">
-          <p class="mb-2 text-gray-500 uppercase tracking-wider font-bold text-sm lg:text-xs">More</p>
+          <p class="mb-2 text-gray-500 uppercase tracking-wider font-bold text-sm lg:text-xs">Ссылки</p>
           <div class="flex items-center space-x-4">
             <a
               v-if="settings.discord"
