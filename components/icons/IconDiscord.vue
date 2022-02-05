@@ -3,7 +3,7 @@
     width="71"
     height="55"
     viewBox="0 0 71 55"
-    fill="#fff"
+    fill="currentColor"
     xmlns="http://www.w3.org/2000/svg"
     class="feather feather-github"
   >

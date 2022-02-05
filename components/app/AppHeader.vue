@@ -40,8 +40,8 @@
               :href="settings.discord"
               target="_blank"
               rel="noopener noreferrer"
-              title="Twitter"
-              name="Twitter"
+              title="Discord"
+              name="Discord"
               class="text-gray-700 dark:text-gray-300 hover:text-primary-500 dark-hover:text-primary-500 ml-4"
               :class="{
                 'hidden lg:block': settings.layout !== 'single'
