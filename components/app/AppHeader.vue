@@ -17,7 +17,7 @@
               :src="settings.logo"
               class="h-8 max-w-full mr-2"
             />
-            <span v-if="!settings.logo">{{ settings.title }}</span>
+            <span>{{ settings.title }}</span>
           </NuxtLink>
         </div>
         <div v-if="settings.layout !== 'single'" class="flex-1 flex justify-start w-4/6">
