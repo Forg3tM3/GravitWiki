@@ -16,6 +16,7 @@
     "@nuxtjs/color-mode": "^2.0.3",
     "@nuxtjs/google-fonts": "1.2.0",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@tailwindcss/typography": "0.2.0",
     "clipboard": "^2.0.6",

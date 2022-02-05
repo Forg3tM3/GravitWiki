@@ -12,5 +12,9 @@ export default theme({
     // This way, all generated path asset will be prefixed with /<repository-name>/, 
     // and the next time you deploy the code to repository GitHub Pages, the site should be working properly.
     base: '/GravitWiki/'
+  },
+
+  sitemap: {
+    hostname: "https://elchapo193.github.io"
   }
 })

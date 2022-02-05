@@ -3,6 +3,14 @@ import defu from 'defu'
 
 import tailwindConfig from './tailwind.config'
 
+async function getRoutes() {
+  const { $content } = require("@nuxt/content");
+  const files = await $content({ deep: true }).only(["path"]).fetch();
+
+  return files.map((file) => (file.path === "/index" ? "/" : file.path)).filter(file => file !== '/settings');
+};
+
+
 function themeModule () {
   // wait for nuxt options to be normalized
   const { nuxt } = this
@@ -19,16 +27,6 @@ function themeModule () {
     document.to = `${_dir}/${_slug}`
     document.category = _category
   })
-  // Extend `/` route
-  // hook('build:extendRoutes', (routes) => {
-  //   const allRoute = routes.find(route => route.name === 'all')
-
-  //   routes.push({
-  //     ...allRoute,
-  //     path: '/',
-  //     name: 'index'
-  //   })
-  // })
 
   // Configure `tailwind.config.js` path
   options.tailwindcss.configPath = options.tailwindcss.configPath || path.resolve(options.rootDir, 'tailwind.config.js')
@@ -78,6 +76,7 @@ const defaultConfig = docsOptions => ({
   ],
   modules: [
     'nuxt-i18n',
+    '@nuxtjs/sitemap',
     '@nuxt/content'
   ],
   components: [
@@ -116,6 +115,11 @@ const defaultConfig = docsOptions => ({
     }
   },
   tailwindcss: {},
+  sitemap: {
+    routes() {
+      return getRoutes();
+    },
+  },
 })
 
 export default (userConfig) => {
