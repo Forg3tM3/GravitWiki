@@ -20,15 +20,15 @@ function themeModule () {
     document.category = _category
   })
   // Extend `/` route
-  hook('build:extendRoutes', (routes) => {
-    const allRoute = routes.find(route => route.name === 'all')
+  // hook('build:extendRoutes', (routes) => {
+  //   const allRoute = routes.find(route => route.name === 'all')
 
-    routes.push({
-      ...allRoute,
-      path: '/',
-      name: 'index'
-    })
-  })
+  //   routes.push({
+  //     ...allRoute,
+  //     path: '/',
+  //     name: 'index'
+  //   })
+  // })
 
   // Configure `tailwind.config.js` path
   options.tailwindcss.configPath = options.tailwindcss.configPath || path.resolve(options.rootDir, 'tailwind.config.js')

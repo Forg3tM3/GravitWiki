@@ -10,7 +10,7 @@ features:
 ---
 Лучший лаунчер майнкрафт для вашего проекта.
 
-<img src="/icon.png" width="256px" alt=""/>
+<img src="icon.png" width="256px" alt=""/>
 
 
 ## Возможности

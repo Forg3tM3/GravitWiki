@@ -1,7 +1,7 @@
 {
   "title": "GravitLauncher",
   "url": "https://launcher.gravit.pro/",
-  "logo": "/icon.png",
+  "logo": "icon.png",
   "github": "GravitLauncher/Launcher",
   "githubDocs": "https://github.com/GravitLauncher/LauncherWiki",
   "docsBranch": "main",
