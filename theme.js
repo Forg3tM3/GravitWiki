@@ -6,8 +6,12 @@ import tailwindConfig from './tailwind.config'
 async function getRoutes() {
   const { $content } = require("@nuxt/content");
   const files = await $content({ deep: true }).only(["path"]).fetch();
+  const transform = files.map((file) => (file.path === "/index" ? "/" : file.path))
+    .filter(file => file !== '/settings')
+    .map(file => file.replace(/^.+?[/]/, ''))
+    .filter((file, index, files) => files.indexOf(file) === index)
 
-  return files.map((file) => (file.path === "/index" ? "/" : file.path)).filter(file => file !== '/settings');
+  return transform
 };
 
 
