@@ -6,5 +6,8 @@ export default theme({
   },
   i18n: {
     locales: [],
+  },
+  router: {
+    base: '/GravitWiki/'
   }
 })
