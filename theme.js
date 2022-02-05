@@ -107,20 +107,7 @@ const defaultConfig = docsOptions => ({
     parsePages: false,
     lazy: true,
     seo: false,
-    langDir: 'i18n/',
-    vueI18n: {
-      fallbackLocale: 'latest',
-      dateTimeFormats: {
-        ru: {
-          long: {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            weekday: 'short'
-          }
-        }
-      }
-    }
+    langDir: 'i18n/'
   },
   googleFonts: {
     families: {
