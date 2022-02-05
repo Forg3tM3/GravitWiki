@@ -1,6 +1,6 @@
 ---
 title: Вступление
-description: ''
+description: 'GravitLauncher - Лучший лаунчер майнкрафт для вашего проекта'
 position: 1
 category: Приступаем к работе
 features:

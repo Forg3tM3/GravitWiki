@@ -1,6 +1,6 @@
 ---
 title:  TextureProvider
-description: ''
+description: 'Получение скинов игрока в GravitLauncher'
 position: 4
 category: 'Настройка лаунчера'
 ---

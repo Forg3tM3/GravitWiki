@@ -1,6 +1,6 @@
 ---
 title: Авторизации
-description: ''
+description: 'Настройка авторизации в лаунчере Gravit'
 position: 3
 category: 'Настройка лаунчера'
 features:

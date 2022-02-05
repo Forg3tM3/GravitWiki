@@ -1,6 +1,6 @@
 ---
 title: Разработчикам
-description: ''
+description: 'Написание модулей для лаунчера, внешнее API, реализация OAuth'
 position: 5
 category: 'Настройка лаунчера'
 ---

@@ -1,6 +1,6 @@
 ---
 title: Клиент
-description: ''
+description: 'Добавление и сборка Minecraft клиентов в лаунчере, настройка AuthLib'
 position: 7
 category: 'Minecraft'
 support:

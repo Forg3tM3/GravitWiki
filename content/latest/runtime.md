@@ -1,6 +1,6 @@
 ---
 title: Рантайм
-description: ''
+description: 'Кастумизация и настройка LauncherRuntime'
 position: 3
 category: Настройка лаунчера
 support:

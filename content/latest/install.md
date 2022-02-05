@@ -1,6 +1,6 @@
 ---
 title: Установка
-description: ''
+description: 'Сборка и установка GravitLauncher на Linux/Windows'
 position: 2
 category: Приступаем к работе
 ---

@@ -1,6 +1,6 @@
 ---
 title: Привязка сервера
-description: ''
+description: 'Привязка серверов Minecraft к GravitLauncher'
 position: 8
 category: Minecraft
 support:
