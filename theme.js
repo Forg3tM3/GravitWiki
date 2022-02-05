@@ -129,9 +129,6 @@ const defaultConfig = docsOptions => ({
     }
   },
   tailwindcss: {},
-  build: {
-    extractCSS: true,
-  }
 })
 
 export default (userConfig) => {
