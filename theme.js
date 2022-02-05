@@ -128,7 +128,10 @@ const defaultConfig = docsOptions => ({
       'DM+Mono': true
     }
   },
-  tailwindcss: {}
+  tailwindcss: {},
+  build: {
+    extractCSS: true,
+  }
 })
 
 export default (userConfig) => {
